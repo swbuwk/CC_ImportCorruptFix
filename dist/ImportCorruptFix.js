@@ -1,0 +1,2 @@
+(()=>{"use strict";const t={init:()=>{setTimeout((()=>{const t=Game.Objects.Temple.minigame;t.slotGod=(o,s)=>{if(s==o.slot)return!1;-1!=s&&-1!=t.slot[s]?(t.godsById[t.slot[s]].slot=o.slot,-1!=o.slot&&(t.slot[o.slot]=t.slot[s])):-1!=o.slot&&(t.slot[o.slot]=-1),-1!=s&&(t.slot[s]=o.id),o.slot=s,Game.recalculateGains=!0}}),500)}};"undefined"!=typeof Steam?setTimeout((function(){Game.registerMod("ImportCorruptFix",t)}),2e3):Game.registerMod("ImportCorruptFix",t)})();
+//# sourceMappingURL=ImportCorruptFix.js.map
